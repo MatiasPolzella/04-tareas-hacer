@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 require("colors");
-
+ 
 const preguntas = [
   {
     type: "list",

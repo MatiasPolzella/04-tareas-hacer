@@ -16,7 +16,7 @@ const main = async () => {
   let opt = "";
   const tareas = new Tareas();
 
-  const tareasDB = leerDB();
+  const tareasDB = leerDB(); 
 
   if (tareasDB) {
     // cargar tareas
